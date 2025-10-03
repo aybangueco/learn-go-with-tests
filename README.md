@@ -13,3 +13,9 @@ I love Golang ever since I wrote and refactored an existing codebase during my i
 https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world
 
 Here I learned the existence of go doc and [pkgsite](https://github.com/golang/pkgsite). Such a great way to see code documentation even from your own projects. I learned the concepts of test driven development alone in this chapter. Well, its simple, just write a failing test, write the minimum code to make the test pass and clean up the code while keeping the tests running error free.
+
+## Integers: Learnings
+
+https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/integers
+
+Here I learned and got familiar with TDD workflow and also exposed me to write better code documentation via writing comments and testable examples.
