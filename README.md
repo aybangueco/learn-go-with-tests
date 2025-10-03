@@ -19,3 +19,29 @@ Here I learned the existence of go doc and [pkgsite](https://github.com/golang/p
 https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/integers
 
 Here I learned and got familiar with TDD workflow and also exposed me to write better code documentation via writing comments and testable examples.
+
+## Iteration: Learnings
+
+https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/iteration
+
+Here I learned about benchmarking. Surprise! Yeah its not just about implementing test driven development principles, it has benchmark lessons too.
+
+To run benchmark
+
+```bash
+go test -bench=. ./iteration
+
+go test -bench=. -benchmem ./iteration # additional flags for reporting memory allocations
+```
+
+Example of typical setup for benchmarking
+
+```go
+func Benchmark(b *testing.B) {
+	//... setup ...
+	for b.Loop() {
+		//... code to measure ...
+	}
+	//... cleanup ...
+}
+```
