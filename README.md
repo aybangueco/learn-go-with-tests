@@ -9,4 +9,7 @@ In this repository, I will be doing guided tasks based on the course, while wrap
 I love Golang ever since I wrote and refactored an existing codebase during my internship. It's so simple and ✨elegant✨ to write. I just want to be good at things I do and I want to be better than I was yesterday because I feel like I'm already hitting my comfort zone again, and I need to step away from it.
 
 ## Hello, World: Learnings
+
 https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world
+
+Here I learned the existence of go doc and [pkgsite](https://github.com/golang/pkgsite). Such a great way to see code documentation even from your own projects. I learned the concepts of test driven development alone in this chapter. Well, its simple, just write a failing test, write the minimum code to make the test pass and clean up the code while keeping the tests running error free.
