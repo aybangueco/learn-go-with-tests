@@ -45,3 +45,9 @@ func Benchmark(b *testing.B) {
 	//... cleanup ...
 }
 ```
+
+## Arrays and Slices: Learnings
+
+https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/arrays-and-slices
+
+Here in this chapter, just another section being exposed on the workflow of TDD. I'm getting confident in writing tests, and realized how important writing tests are. I also learned the existence of test coverage which is an additional options when running tests in Go.
