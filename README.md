@@ -57,3 +57,9 @@ Here in this chapter, just another section being exposed on the workflow of TDD.
 https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/structs-methods-and-interfaces
 
 In this chapter I learned how structs, methods and interfaces on how they work properly. I also learned a few best practices, especially the quote "The test speaks to us more clearly, as if it were an assertion of truth, not a sequence of operations". It makes me realize that tests cases must be expressive not in emotion but for clarity. It should define how the things should be, well this not just applies for the test but also when writing code.
+
+## Pointers & Errors
+
+https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/pointers-and-errors
+
+In this chapter I learned how to handle data mutations by using Pointers, I also got a more good understanding on interfaces, it looks tricky but the implementation is just so simple yet powerful.
