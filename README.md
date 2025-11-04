@@ -63,3 +63,10 @@ In this chapter I learned how structs, methods and interfaces on how they work p
 https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/pointers-and-errors
 
 In this chapter I learned how to handle data mutations by using Pointers, I also got a more good understanding on interfaces, it looks tricky but the implementation is just so simple yet powerful.
+
+## Maps
+
+https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/maps
+
+In this chapter I learned about the existence of maps. What is maps? It's a way to store values with a specific key, unlike arrays where you can store
+values in order. I wrote a simple CRUD functionality while adopting Test Driven Development.
