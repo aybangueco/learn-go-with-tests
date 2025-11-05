@@ -70,3 +70,11 @@ https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/maps
 
 In this chapter I learned about the existence of maps. What is maps? It's a way to store values with a specific key, unlike arrays where you can store
 values in order. I wrote a simple CRUD functionality while adopting Test Driven Development.
+
+## Dependency Injection
+
+https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/dependency-injection
+
+In this chapter I learned about Dependency Injection and its usefulness. Dependency Injection is just a fancy word for implements, also in this chapter
+i got a proper understanding of general purpose interface with io.Writer. Based on my understanding, as long as an interface implements/satisfies
+the io.Writer, It can be used to anything, just like how the Greet function can be used on any other aspects that satisfies the io.Writer.
