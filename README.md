@@ -85,3 +85,16 @@ https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/mocking
 
 In this chapter, I learned about Mocking, there are various types like stubs, spies and indeed mocks, see [(TestDouble)](https://martinfowler.com/bliki/TestDouble.html) for reference. Mocking is helpful in Test Driven Development it helps set expectations for the tests we are writing, also I learned
 about Spies, which are used to observe how our function behaves.
+
+## Concurrency
+
+https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/concurrency
+
+In this chapter, I learned about concurrency, goroutines and channels. What are they? First off goroutines is a way to handle multiple concurrent
+requests, let's just say a function will take a few seconds to finish, so with goroutines we don't have to worry about the function finishing, in-order
+to execute another call, instead we will execute the next one without waiting for it to finish. But here is the catch, there are possibilities that we
+would encounter data race in our goroutines, in-order to avoid that situation we can use golang channels to manage those goroutines. The good thing is that go has already a built in data race checker which can be run by doing:
+
+```bash
+go test -race ./concurrency
+```
