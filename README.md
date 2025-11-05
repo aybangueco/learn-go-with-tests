@@ -78,3 +78,10 @@ https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/dependency-injection
 In this chapter I learned about Dependency Injection and its usefulness. Dependency Injection is just a fancy word for implements, also in this chapter
 i got a proper understanding of general purpose interface with io.Writer. Based on my understanding, as long as an interface implements/satisfies
 the io.Writer, It can be used to anything, just like how the Greet function can be used on any other aspects that satisfies the io.Writer.
+
+## Mocking
+
+https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/mocking
+
+In this chapter, I learned about Mocking, there are various types like stubs, spies and indeed mocks, see [(TestDouble)](https://martinfowler.com/bliki/TestDouble.html) for reference. Mocking is helpful in Test Driven Development it helps set expectations for the tests we are writing, also I learned
+about Spies, which are used to observe how our function behaves.
