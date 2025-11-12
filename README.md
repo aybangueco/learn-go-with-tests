@@ -98,3 +98,9 @@ would encounter data race in our goroutines, in-order to avoid that situation we
 ```bash
 go test -race ./concurrency
 ```
+
+## Select
+
+https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/select#slow-tests
+
+Here in this chapter I learned how to use test http servers by using an existing solution from golang's std library. I also learned how to manage and wait on multiple golang channels.
