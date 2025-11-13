@@ -104,3 +104,9 @@ go test -race ./concurrency
 https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/select#slow-tests
 
 Here in this chapter I learned how to use test http servers by using an existing solution from golang's std library. I also learned how to manage and wait on multiple golang channels.
+
+## Reflection
+
+https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/reflection
+
+Here in this chapter I learned about Reflection package in Go and how to handle multiple test cases in (slice).
