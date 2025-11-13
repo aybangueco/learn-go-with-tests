@@ -3,19 +3,28 @@ package main
 import (
 	"fmt"
 	"io"
+	"log"
 	"os"
 	"time"
 )
 
-const finalWord = "Go!"
-const countdownStart = 3
+const (
+	finalWord      = "Go!"
+	countdownStart = 3
+)
 
 func Countdown(out io.Writer, sleeper Sleeper) {
 	for i := countdownStart; i > 0; i-- {
-		fmt.Fprintln(out, i)
+		_, err := fmt.Fprintln(out, i)
+		if err != nil {
+			log.Fatalf("Error printing countdown: %v", err)
+		}
 		sleeper.Sleep()
 	}
-	fmt.Fprintf(out, finalWord)
+	_, err := fmt.Print(out, finalWord)
+	if err != nil {
+		log.Fatalf("Error printing countdown: %v", err)
+	}
 }
 
 func main() {

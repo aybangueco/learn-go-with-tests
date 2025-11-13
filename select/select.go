@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"net/http"
 	"time"
 )
@@ -26,7 +27,10 @@ func ConfigurableRacer(a, b string, timeout time.Duration) (winner string, error
 func ping(url string) chan struct{} {
 	ch := make(chan struct{})
 	go func() {
-		http.Get(url)
+		_, err := http.Get(url)
+		if err != nil {
+			log.Fatalf("Error sending HTTP request (GET): %v", err)
+		}
 		close(ch)
 	}()
 	return ch
