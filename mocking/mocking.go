@@ -21,7 +21,7 @@ func Countdown(out io.Writer, sleeper Sleeper) {
 		}
 		sleeper.Sleep()
 	}
-	_, err := fmt.Print(out, finalWord)
+	_, err := fmt.Fprint(out, finalWord)
 	if err != nil {
 		log.Fatalf("Error printing countdown: %v", err)
 	}
